@@ -1,0 +1,225 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  background: white;
+  margin-top: auto;
+  padding: 5px;
+  position: fixed;
+}
+
+.logo {
+  width: 10%;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.li-list {
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.li-list a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+.nav-list {
+  width: 80%;
+}
+
+.nav-list a:hover {
+  color: white;
+  background-color: rgb(2, 2, 2);
+  letter-spacing: 5px;
+  border-radius: 17px;
+}
+
+/* background image start*/
+.back-image {
+  padding: 100px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(image/back_image-food4.jpg);
+  background-size: 100%;
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  margin-top: auto;
+}
+
+.back-image h1 {
+  font-size: 50px;
+}
+
+.button-color {
+  background-color: rgb(252, 182, 52);
+  color: white;
+  padding: 13px;
+  width: 15%;
+  border-radius: 12px;
+}
+
+.button-color a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-color :hover {
+  background-color: black;
+  letter-spacing: 7px;
+  text-decoration-style: dotted;
+  border-radius: 17px;
+}
+/* background image end*/
+
+.text-center {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* grid box start*/
+.grid-boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 90px;
+}
+
+.grid-box {
+  text-align: center;
+  border: 0.1px solid;
+  box-shadow: 3px 3px rgb(248, 191, 86);
+  border-color: rgb(255, 228, 177);
+  border-radius: 10px;
+}
+/* grid box end*/
+
+.text-center2 {
+  background-color: rgb(255, 206, 115);
+  color: white;
+  margin-top: 90px;
+  text-align: center;
+  padding: 140px;
+  font-size: 20px;
+}
+
+/* how it works section start*/
+.icon-back {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 450px 450px;
+  justify-content: center;
+  background-color: rgb(255, 206, 115);
+  padding-bottom: 40px;
+  margin-top: -90px;
+}
+
+.icon-align {
+  background-color: white;
+  border-radius: 5px;
+  width: 390px;
+  margin-left: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+/* how it works section ends*/
+
+/*partner's section starts*/
+.bottom-grid {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(5, 1fr);
+  align-content: center;
+  margin-left: 50px;
+}
+/* partner's section ends*/
+
+.footer {
+  background-color: rgb(255, 194, 81);
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  padding: 5px;
+  font-family: cursive;
+}
+
+.footer a {
+  color: white;
+}
+
+.input {
+  width: 400px;
+  border: 3px solid white;
+  background: white;
+  padding: 50px, 20px;
+  border-radius: 50px;
+  outline: none;
+  font-size: 26px;
+  color: black;
+}
+
+.btn-class {
+  margin-top: 90px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 36em;
+  margin-top: 6px;
+  cursor: pointer;
+  color: burlywood;
+  background: black;
+  border: 0px;
+  width: 80px;
+  height: 30px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  outline: none;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 100px;
+  border: 0.5px solid;
+  width: 80%;
+}
+
+.fli-list {
+  margin-top: 20px;
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.fli-list li {
+  margin-right: 20px;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 1px;
+  font-family: sans-serif;
+}
+
+.fli-list a {
+  text-decoration: none;
+}
+
+.fli-list a:hover {
+  color: white;
+  background-color: rgb(2, 2, 2);
+  letter-spacing: 5px;
+  border-radius: 17px;
+}
